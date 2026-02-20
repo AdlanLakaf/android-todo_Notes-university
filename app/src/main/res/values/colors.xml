@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#1A1A1A</color>
+    <color name="primary_dark">#000000</color>
+    <color name="primary_light">#333333</color>
+    <color name="accent">#F59E0B</color>
+
+    <!-- Background Colors -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="success">#10B981</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+    <color name="info">#3B82F6</color>
+
+    <!-- Category Colors for Notes -->
+    <color name="category_purple">#8B5CF6</color>
+    <color name="category_blue">#3B82F6</color>
+    <color name="category_green">#10B981</color>
+    <color name="category_orange">#F97316</color>
+    <color name="category_pink">#EC4899</color>
+    <color name="category_teal">#14B8A6</color>
+
+    <!-- Priority Colors for ToDo -->
+    <color name="priority_high">#EF4444</color>
+    <color name="priority_medium">#F59E0B</color>
+    <color name="priority_low">#10B981</color>
+
+    <!-- Divider and Border -->
+    <color name="divider">#E2E8F0</color>
+    <color name="border">#CBD5E1</color>
+    <color name="ripple">#D4D4D4</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#1A1A1A</color>
+    <color name="gradient_end">#333333</color>
+
+    <!-- Shadow -->
+    <color name="shadow">#1A000000</color>
+</resources>

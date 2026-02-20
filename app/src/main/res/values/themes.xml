@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.ToDoNotes" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <!-- Background Colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Ripple Effect -->
+        <item name="colorControlHighlight">@color/ripple</item>
+
+        <!-- Card Style -->
+        <item name="materialCardViewStyle">@style/CustomCardView</item>
+
+        <!-- Button Style -->
+        <item name="materialButtonStyle">@style/CustomButton</item>
+
+        <!-- Floating Action Button -->
+        <item name="floatingActionButtonStyle">@style/CustomFAB</item>
+    </style>
+
+    <!-- Custom CardView Style -->
+    <style name="CustomCardView" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">16dp</item>
+    </style>
+
+    <!-- Custom Button Style -->
+    <style name="CustomButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Custom FAB Style -->
+    <style name="CustomFAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="tint">@color/text_on_primary</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <!-- Bottom Navigation Style -->
+    <style name="CustomBottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
+        <item name="itemRippleColor">@color/ripple</item>
+        <item name="backgroundTint">@color/surface</item>
+        <item name="elevation">16dp</item>
+    </style>
+
+    <!-- Input Field Style -->
+    <style name="CustomInputField" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+    </style>
+
+    <!-- Title Text Style -->
+    <style name="TitleText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif-bold</item>
+    </style>
+
+    <!-- Subtitle Text Style -->
+    <style name="SubtitleText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Body Text Style -->
+    <style name="BodyText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style>
+
+    <!-- Caption Text Style -->
+    <style name="CaptionText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/text_hint</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+</resources>

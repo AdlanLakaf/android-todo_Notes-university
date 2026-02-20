@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoNotes</string>
+    
+    <!-- Navigation -->
+    <string name="nav_notes">Notes</string>
+    <string name="nav_todo">ToDo</string>
+    
+    <!-- Notes -->
+    <string name="notes_title">My Notes</string>
+    <string name="notes_empty_title">No notes yet</string>
+    <string name="notes_empty_subtitle">Tap + to create your first note</string>
+    <string name="search_notes">Search notes...</string>
+    
+    <!-- ToDo -->
+    <string name="todo_title">My Tasks</string>
+    <string name="todo_empty_title">No tasks yet</string>
+    <string name="todo_empty_subtitle">Tap + to add your first task</string>
+    <string name="filter_all">All</string>
+    <string name="filter_pending">Pending</string>
+    <string name="filter_completed">Completed</string>
+    
+    <!-- Add/Edit -->
+    <string name="new_note">New Note</string>
+    <string name="new_task">New Task</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    
+    <!-- Categories -->
+    <string name="category_general">General</string>
+    <string name="category_study">Study</string>
+    <string name="category_work">Work</string>
+    <string name="category_personal">Personal</string>
+    <string name="category_ideas">Ideas</string>
+    
+    <!-- Priority -->
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+    
+    <!-- Form Hints -->
+    <string name="hint_title">Title</string>
+    <string name="hint_note_content">Write your note here...</string>
+    <string name="hint_task_title">What needs to be done?</string>
+    <string name="hint_task_description">Add details (optional)</string>
+    <string name="hint_due_date">Due Date</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_priority">Priority</string>
+    
+    <!-- Messages -->
+    <string name="note_saved">Note saved successfully</string>
+    <string name="note_updated">Note updated successfully</string>
+    <string name="note_deleted">Note deleted</string>
+    <string name="task_saved">Task added successfully</string>
+    <string name="task_updated">Task updated successfully</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="task_completed">Task completed!</string>
+    <string name="task_pending">Task marked as pending</string>
+    <string name="error_save">Failed to save</string>
+    <string name="error_empty_title">Please enter a title</string>
+    <string name="error_empty_task">Please enter a task</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomBottomNavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/ripple</item>
+    </style>
+
+    <style name="CustomFilterChip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_background</item>
+        <item name="android:textColor">@color/chip_text</item>
+        <item name="checkedIconTint">@color/primary</item>
+    </style>
+
+    <style name="CategoryChip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/category_chip_bg</item>
+        <item name="android:textColor">@color/category_chip_text</item>
+        <item name="checkedIconTint">@color/primary</item>
+    </style>
+</resources>
